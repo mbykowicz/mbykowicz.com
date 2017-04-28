@@ -1,0 +1,65 @@
+[
+    {
+        "id": 1,
+        "url": "../../assets/gallery/project_1.jpg",
+        "name": "Blog Hero Exploration",
+        "description": "This is a short description of the project.",
+        "link": "http://www.dribbble.com"
+    },
+    {
+        "id": 2,
+        "url": "../../assets/gallery/project_2.jpg",
+        "name": "Blog Hero Exploration",
+        "description": "This is a short description of the project.",
+        "link": "http://www.dribbble.com"
+    },
+    {
+        "id": 3,
+        "url": "../../assets/gallery/project_3.jpg",
+        "name": "Blog Hero Exploration",
+        "description": "This is a short description of the project.",
+        "link": "http://www.dribbble.com"
+    },
+    {
+        "id": 4,
+        "url": "../../assets/gallery/project_4.jpg",
+        "name": "Blog Hero Exploration",
+        "description": "This is a short description of the project.",
+        "link": "http://www.dribbble.com"
+    },
+        {
+        "id": 5,
+        "url": "../../assets/gallery/project_5.jpg",
+        "name": "Blog Hero Exploration",
+        "description": "This is a short description of the project.",
+        "link": "http://www.dribbble.com"
+    },
+    {
+        "id": 6,
+        "url": "../../assets/gallery/project_6.png",
+        "name": "Blog Hero Exploration",
+        "description": "This is a short description of the project.",
+        "link": "http://www.dribbble.com"
+    },
+    {
+        "id": 7,
+        "url": "../../assets/gallery/project_7.png",
+        "name": "Blog Hero Exploration",
+        "description": "This is a short description of the project.",
+        "link": "http://www.dribbble.com"
+    },
+    {
+        "id": 8,
+        "url": "../../assets/gallery/project_8.png",
+        "name": "Blog Hero Exploration",
+        "description": "This is a short description of the project.",
+        "link": "http://www.dribbble.com"
+    },
+    {
+        "id": 9,
+        "url": "../../assets/gallery/project_9.png",
+        "name": "Blog Hero Exploration",
+        "description": "This is a short description of the project.",
+        "link": "http://www.dribbble.com"
+    }
+]

@@ -1,0 +1,43 @@
+// _mobile_navigation.sass
+
+#mobile-navigation-trigger, .header__menu-icon-wrapper
+  display: none
+  
+.header__menu-icon-wrapper
+  position: relative
+  z-index: 100
+  margin-left: 10px
+
+.header__menu-icon
+  width: 40px
+  height: 40px
+  
+  & > div
+    background: #262626
+    height: 5px
+    border-radius: 5px
+    margin-bottom: 5px
+    transition: all 0.125s ease-in-out
+  
+    &:nth-child(1)
+      width: 35px 
+    
+    &:nth-child(2)
+      width: 20px
+    
+    &:nth-child(3)
+      width: 30px
+      margin: 0
+    
+  &:hover
+    cursor: pointer
+
+#mobile-navigation-trigger:checked 
+  & ~ .header__menu-icon-wrapper .header__menu-icon div
+    width: 35px
+    background: #fff
+  & + .header__mobile-navigation-body
+    left: 0
+  
+.header__mobile-navigation-body
+  display: none

@@ -1,0 +1,8 @@
+<section class="gallery" [@slideIn]="state">
+  <div class="container-fluid">
+      <figure (click)="onSelect(project)" *ngFor="let project of projects" >
+        <figcaption>{{ project.description }}</figcaption>
+        <img src="{{ project.url }}" alt="">
+    </figure>
+  </div>
+</section>

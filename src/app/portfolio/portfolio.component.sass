@@ -1,0 +1,58 @@
+.gallery
+    text-align: center
+    display: flex
+    flex-wrap: wrap
+    flex-justify: center
+    flex-direction: column
+    flex-flow: row wrap
+    margin-top: 150px
+
+    figure
+        width: 50rem
+        height: 30rem
+        background: #f9f9f9
+        overflow: hidden
+        margin: 0
+        padding: 0
+        position: relative
+        flex: auto
+
+        img
+            width: 100%
+            width: 100%
+            position: relative
+            z-index: 0
+            top: 0
+            left: 0
+            transition: all 0.3s ease-in
+
+        figcaption
+            width: 100%
+            width: 100%
+            
+            $stop: rgba(0,0,0,0.85)
+
+            text-align: center            
+            line-height: 30rem
+            font-weight: 700
+            color: #fff
+            background: $stop
+            opacity: 0
+            
+            position: absolute
+            z-index: 2
+            top: 0
+            left: 0
+
+            transform-origin: 0 0
+            transition: all 0.3s ease-in
+
+            &:hover
+                cursor: pointer
+                opacity: 1
+
+            &:hover + img
+                transform: scale(1.1)
+
+            
+            
